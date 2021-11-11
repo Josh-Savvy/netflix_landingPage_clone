@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <CookiesModal />
-      {/* <FirstBoxComponent /> */}
+      <FirstBoxComponent />
       <SecondBoxComponent />
       <ThirdBoxComponent />
       <FourthBoxComponent/>

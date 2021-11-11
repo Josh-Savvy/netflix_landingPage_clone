@@ -1,0 +1,45 @@
+.third-box-component {
+}
+.mobile-phone-gif-section {
+  width: 100vw;
+  margin-left: -5%;
+}
+.mobile-phone-gif-section .mobile-phone {
+  position: relative;
+}
+.mobile-phone-gif-section .mobile-phone img {
+  width: 85%;
+  height: auto;
+}
+.third-box-component .tv-content {
+  padding-bottom: 100px;
+  margin-left: 40px;
+}
+.mobile-phone .download-box {
+  position: absolute;
+  background: black;
+  border: 2px solid rgba(128, 128, 128, 0.699);
+  border-radius: 10px;
+  padding: 15px 20px;
+  top: 70%;
+  left: 16%;
+  max-height: 90px;
+  max-width: 320px;
+  display: grid;
+  grid-template-columns: 65px 160px 70px;
+}
+.mobile-phone .download-box .downloadPic {
+  height: 60px;
+  width: 55px;
+}
+.mobile-phone .download-box caption {
+  padding: 10px;
+}
+.mobile-phone .download-box .download-gif{
+    background-image: url('../../../Images/download-icon.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:50px;
+    width: 50px;
+}

@@ -1,0 +1,11 @@
+.fifth-box-component .row{
+    display: grid;
+    grid-template-columns: 550px 550px;
+}
+.fifth-box-component .kids-pic img{
+    height: 80%;
+    width: auto;
+}
+.fifth-box-component .kids-pic-content{
+    padding-top: 60px;
+}

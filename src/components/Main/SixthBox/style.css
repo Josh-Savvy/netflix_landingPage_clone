@@ -1,0 +1,66 @@
+.sixth-box-component {
+}
+.sixth-box-component .center h1 {
+  margin-bottom: 30px;
+}
+.faq-list ul {
+  padding-bottom: 20px;
+}
+.faq-list ul li a {
+  color: white;
+  font-size: 22px;
+  top: 120px;
+}
+.list-items {
+  user-select: none;
+  display: block;
+  width: 73%;
+  left: 13%;
+  background: #353434;
+  margin: 0px 0px 10px 0px;
+  padding: 20px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.list-items:hover {
+  cursor: pointer;
+}
+.change-marginBottom {
+  margin-bottom: 0;
+}
+.faq-list ul li:first-of-type {
+  margin: 0px 0px 10px 0px;
+}
+/* 11.5% */
+/* 16% */
+.faq-list ul li i {
+    font-size: 30px;
+  float: right;
+}
+#faq1,
+#faq2,
+#faq3,
+#faq4,
+#faq5,
+#faq6 {
+  background: inherit;
+  position: absolute;
+  left: 0px;
+  border-top: 2px solid black;
+  padding: 10px 15px;
+  display: none;
+}
+
+#faq1 {
+  top: 100%;
+}
+.sixth-box-component .center .faq-list .list-items .fa-plus {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.sixth-box-component .center .faq-list .list-items .fa-times {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  left:25px ;
+}

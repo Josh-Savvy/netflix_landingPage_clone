@@ -1,0 +1,33 @@
+.cookies-modal {
+  position: sticky;
+  background-color: #ffffffe6 !important;
+  top: 0;
+  opacity: 100%;
+  transition: ease-in-out 0.3s, opacity 0.3s;
+}
+.cookies-modal p {
+  margin-top: 10px;
+  line-height: 1.3em;
+  font-size: 15px;
+  color: #333;
+}
+.cookies-modal p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+.cookies-modal p a:hover {
+  text-decoration: underline;
+}
+.close-btn {
+  float: right;
+  font-weight: 100;
+  padding: 6px 10px;
+  font-size: 20px;
+  color: #333;
+  border-radius: 50%;
+}
+.close-btn:hover {
+  cursor: pointer;
+  background: #8080802a;
+}

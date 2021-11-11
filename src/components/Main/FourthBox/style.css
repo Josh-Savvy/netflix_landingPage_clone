@@ -1,0 +1,27 @@
+.fourth-box-component .live-tv {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  margin-top: -50px;
+  margin-bottom: 200px;
+}
+
+.fourth-box-component .live-tv::after {
+  content: "";
+  background: url("../../../Images/live-tv2.png");
+  width: 120%;
+  height: 120%;
+  left: 20px;
+  top: 30px;
+  position: absolute;
+  z-index: 10;
+}
+.fourth-box-component .live-tv video {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 420px;
+  height: 300px;
+  z-index: 5;
+}
